@@ -7,7 +7,7 @@ def find_even_values(src)
         p src[row][element]
         element = element + 1 
       else 
-        nil 
+        p "0"
       end 
     end 
     row = row + 1 
